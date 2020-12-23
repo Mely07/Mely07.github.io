@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe'
+import ProjectCard from './ProjectCard'
 
 class Projects extends Component {
     render() {
         return (
-            <div>
-                <Iframe url="https://www.youtube.com/embed/DQkHAqJT1f4"
-                    width="250px"
-                    height="250px"
-                    id="myId"
-                    className="myClassname"
-                    display="initial"
-                    position="relative" />
+            
+            <div className="row cols-1 cols-md-3 mb-3 text-center">
+                <div><ProjectCard link="https://www.youtube.com/embed/DQkHAqJT1f4"/></div>
+                <div><ProjectCard link="https://www.youtube.com/embed//nYkO9-n-NKs"/></div>
+                <div><ProjectCard link="https://www.youtube.com/embed/FpFcbaQwXis"/></div>
+                <div><ProjectCard link="https://youtube.com/embed/TBF4YtSy7oM"/></div>
             </div>
         );
     }
