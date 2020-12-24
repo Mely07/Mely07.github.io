@@ -1,10 +1,27 @@
 import React, { Component } from 'react';
+import { FaGraduationCap } from "react-icons/fa";
+import { FaHandsHelping } from "react-icons/fa";
+import { MdWork } from "react-icons/md"
 
 class Experience extends Component {
     render() {
         return (
             <div>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8dHRsAAAAZGRcuLi3Ly8sbGxnOzs4VFROpqakQEA21tbVpaWjBwcHx8fHp6elgYGAHBwA5OTednZzV1dXm5ubU1NTb29smJiRdXVy6urlWVlWYmJeKiorz8/Ourq5MTEt5eXlvb26Ojo2bm5oxMS+Dg4NERENJSUiSrgQ+AAADIElEQVR4nO3ZZ3uiQBSGYRwQEUtCMGIsiylL8v9/4RICIypTMEXIPve3cHH28C6TKcRxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8J9L1uM4Hs/uf6bbeuAphHNVTaqs8Vxzw1shPS709z6tlI0KK++Psd9MuCpCmXCsKTL0G0ciHFT8ULxpX+Q0UjZ6F0bKR5SGYqCkS6gu0rab3wn/+P5AxLqEYXOXsvaTAb8hYSKChorHCxO64sYYcKkL+PUJb4TbWPJ8UUJXmGeqxemQ+eaEXsMbLGqWFyT0LQIm+oBfnrBWFebzaCRfqOu1T+iLxBhwIWqqwqh+0ZxQnFM3DH3ZZBpPJs8r2VXMFCUPTc8YFD+ZAzrDg1H1yNHzqHZZWVrdLtb12w1F8pde7Mork+pKeKuoWdQfsrw72Czzn9ruFpbyka1ulwnNk1lD0fYQQIa2+QfKm8Npi6ZS9f8jJu0etk3CXVQW1bYhmQgLFrNGDxJmVcLaQB5tbgubX5HwRVSzoF2TM51PKPdPvgh3yhVQ4yoJ18fz6Ej/hHL59fNFaZq2nQ6vkfB0PVxpq+KjfUK+6A8y9drS4CoJj7l3+rLXkx2Km7/Knf1A70FC5+9ZXT5en8yH2A99SOhMG04XoeU2ox8JnaHXcETUHoIP+pHQcWYbIU5PDMqd95Huz6WVefr+Lar+Kv3u7kvT2THrhss4PxhF7cbpVRKavwTpmmZyuAavFvd3fdc2r4byS+3iU5vjU9cTVpu24Gg62gf2o6HzCT23YeJsM947n7A6H/r1qsew46N0PTql3kvLTxbu4QxcnajcgUXXLqyH+m9tr9US6Iu3NJnP72dyookyi64d2NMYhlvtC/vHB8HD3sbm22APEjqZqix8sOnag4TOPmqscYXVAaoPCZ19U2FgNUZ7ktDZnR+exMryg80nE/oF64S+imlhS/Yiqv1BKJ9ytoYKqWx6acKgYJ0wUDEv3UnmH9aWTWr/kGXT6KKEP+xmmMbbbby2+/0DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAD/wD54Mp1IWvHPUAAAAASUVORK5CYII"/>
+                <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" />
+
+                <h4><MdWork />  WORK EXPERIENCE</h4>
+                    Director of Business St. Francis Xavier Church​, New York, NY 01/2016 – Present
+                    Administrative Assistant St. Francis Xavier Church​, New York, NY 06/2013 – 12/2015
+                <h4><FaGraduationCap />  EDUCATION</h4>
+                    Flatiron School​, New York, NY (Online) Full Stack Web Development, Ruby on Rails and JavaScript Coding Program
+                <br />
+                    Villanova University, Graduate School of Business​, Villanova, PA Master of Science (MS) in Church Business Management
+                <br />
+                    New York University, College of Arts & Science​, New York, NY Bachelor of Science (BS) in Psychology, Minor in Social Work
+                <h4><FaHandsHelping />  VOLUNTEER EXPERIENCE</h4>
+                    Girls Who Code​ ​Co-Facilitator​ at Madison Square Boys & Girls Club Pinkerton
+                <br />
+                    The Latinas On The Verge of Excellence (L.O.V.E.) Mentorship Program​ ​Young Professionals Board Member
             </div>
         );
     }
