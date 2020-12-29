@@ -7,9 +7,9 @@ import { FaMediumM } from "react-icons/fa"
 const ProjectCard = (props) => {
 
     return (
-        <div className="col">
-            <Iframe src={props.link}
-                width="250px"
+        <div >
+            <Iframe class="responsive-iframe" src={props.link}
+                width="400px"
                 height="250px" />
 
             <a style={{ color: 'black' }} href={props.glink}><GoMarkGithub /></a>

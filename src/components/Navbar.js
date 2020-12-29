@@ -4,12 +4,12 @@ import { Navbar, Nav } from 'react-bootstrap';
 class NavBar extends Component {
     render() {
         return (
-            <Navbar bg="dark" variant="dark" fixed="top">
+            <Navbar bg="light" variant="light" fixed="top">
 
                 <Navbar.Brand href="/"> DT </Navbar.Brand>
 
                 <Nav className="col-sm-3">
-                    
+
                     <Nav.Link href="/projects">Projects</Nav.Link>
                     <Nav.Link href="/experience">Experience</Nav.Link>
                     <Nav.Link href="/about">About</Nav.Link>
