@@ -9,32 +9,42 @@ class Experience extends Component {
         return (
 
             <div className="container rounded mt-5 p-md-5 mb-4 rounded bg-light">
-
-                <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" />
-
-                <div className="container rounded mb-4">
-                    <h5><MdWork style={{ color: '#E9C46A' }} /> WORK EXPERIENCE</h5>
-                    Director of Business St. Francis Xavier Church​, New York, NY 01/2016 – Present
+                <h1 center>Experience</h1>
+                {/* <img src="https://www.clipartkey.com/mpngs/m/33-339256_volunteering-symbol-png.png" /> */}
                 <br />
-                    Administrative Assistant St. Francis Xavier Church​, New York, NY 06/2013 – 12/2015
+                <div className="row">
+                    <div className="col-3">IMAGE HERE</div>
+                    
+                    <div className="col-9 mb-4 border-left">
+                        <h5><MdWork style={{ color: '#E9C46A' }} />  WORK</h5>
+                        <li><b>Director of Business</b> <i>St. Francis Xavier Church​ </i> 01/2016 – Present</li>
+
+                        <li><b>Administrative Assistant </b><i>St. Francis Xavier Church​ </i> 06/2013 – 12/2015</li>
+                    </div>
                 </div>
 
+                <div className="row">
+                    <div className="col-3">IMAGE HERE</div>
 
-                <div className="container rounded mb-4">
-                    <h5><FaGraduationCap style={{ color: '#DDA0DD' }} />  EDUCATION</h5>
-                    Flatiron School​, New York, NY (Online) Full Stack Web Development, Ruby on Rails and JavaScript Coding Program
-                <br />
-                    Villanova University, Graduate School of Business​, Villanova, PA Master of Science (MS) in Church Business Management
-                <br />
-                    New York University, College of Arts and Science​, New York, NY Bachelor of Science (BS) in Psychology, Minor in Social Work
+                    <div className="col-9 mb-4 border-left">
+                        <h5><FaGraduationCap style={{ color: '#DDA0DD' }} />  EDUCATION</h5>
+                        <li><b>Flatiron School​</b>,  <i>Full Stack Web Development, Ruby on Rails and JavaScript Coding Program</i></li>
+
+                        <li><b>Villanova University</b>, Graduate School of Business​ <i>Master of Science in Church Business Management</i></li>
+
+                        <li> <b>New York University</b>, College of Arts and Science​ <i>Bachelor of Science in Psychology, Minor in Social Work</i></li>
+                    </div>
                 </div>
 
+                <div className="row">
+                    <div className="col-3">IMAGE HERE</div>
 
-                <div className="container rounded $orange-100">
-                    <h5><FaHandsHelping style={{ color: '#3498DB' }} />  VOLUNTEER EXPERIENCE</h5>
-                    Girls Who Code​ ​Co-Facilitator​ at Madison Square Boys and Girls Club Pinkerton
-                <br />
-                    The Latinas On The Verge of Excellence (L.O.V.E.) Mentorship Program​ ​Young Professionals Board Member
+                    <div className="col-9 border-left">
+                        <h5><FaHandsHelping style={{ color: '#3498DB' }} />  VOLUNTEER </h5>
+                        <li><b>Girls Who Code​ ​</b>Co-Facilitator​ at <i>Madison Square Boys and Girls Club Pinkerton</i></li>
+
+                        <li><b>The Latinas On The Verge of Excellence (L.O.V.E.) Mentorship Program​ ​</b>Young Professionals Board Co-Founder</li>
+                    </div>
                 </div>
             </div>
 
