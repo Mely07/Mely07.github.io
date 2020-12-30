@@ -8,10 +8,7 @@ const ProjectCard = (props) => {
 
     return (
         <div >
-            <Iframe class="responsive-iframe" src={props.link}
-                width="400px"
-                height="250px" />
-
+            <Iframe class="responsive-iframe" src={props.link} width="100%" height="258px" />
             <a style={{ color: 'black' }} href={props.glink}><GoMarkGithub /></a>
             <a style={{ color: 'black' }} href={props.mlink}><FaMediumM /></a>
         </div>

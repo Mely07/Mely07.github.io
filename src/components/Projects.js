@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 class Projects extends Component {
     render() {
         return (
-            <div className="container mt-5">
+            <div className="container rounded mt-5 p-md-5 mb-4 rounded bg-light">
                 <div className="row">
                     <div className="col-4"><ProjectCard link="https://www.youtube.com/embed//nYkO9-n-NKs" glink="https://github.com/Mely07/Storyteller-React-Redux-Project" mlink="https://damely-tineo.medium.com/react-redux-and-store-state-7e4f4605ac8b" /></div>
                     <div className="col-4"><ProjectCard link="https://www.youtube.com/embed/DQkHAqJT1f4" glink="https://github.com/Mely07/Book-It-JS-Rails-Project" mlink="https://damely-tineo.medium.com/object-oriented-classes-8e13ffdf7b1d" /></div>
