@@ -20,10 +20,6 @@ class Router extends Component {
                     <Route path='/projects' component={Projects} />
                     <Route path='/experience' component={Experience} />
                     <Route path='/contact' component={Contact} />
-                    <Route path='/blog' component={() => {
-                        window.location.href = 'https://damely-tineo.medium.com/';
-                        return null;
-                    }} />
                 </Switch>
             </div>
         );
