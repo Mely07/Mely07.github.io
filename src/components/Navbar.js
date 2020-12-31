@@ -10,8 +10,7 @@ class NavBar extends Component {
                 <Nav className="col-sm-3">
                     <Nav.Link href="/projects">Projects</Nav.Link>
                     <Nav.Link href="/experience">Experience</Nav.Link>
-                    <Nav.Link href="/about">About</Nav.Link>
-                    <Nav.Link href="https://damely-tineo.medium.com/">Blog</Nav.Link>
+                    <Nav.Link href="/blog">Blog</Nav.Link> 
                 </Nav>
 
                 <Nav className="ml-auto">
