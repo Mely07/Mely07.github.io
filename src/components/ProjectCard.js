@@ -1,7 +1,8 @@
 import React from 'react';
 import Iframe from 'react-iframe';
-import { GoMarkGithub } from "react-icons/go";
-import { FaMediumM } from "react-icons/fa"
+// import { GoMarkGithub } from "react-icons/go";
+// import { FaMediumM } from "react-icons/fa"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const ProjectCard = (props) => {
@@ -10,8 +11,8 @@ const ProjectCard = (props) => {
         <div >
             <Iframe className="responsive-iframe rounded" src={props.link} width="100%" height="258px" />
             <div className="center">
-                <a style={{ color: 'black' }} href={props.glink}><GoMarkGithub /></a>
-                <a style={{ color: 'black' }} href={props.mlink}><FaMediumM /></a>
+                {/* <a style={{ color: 'black' }} href={props.glink}><GoMarkGithub /></a>
+                <a style={{ color: 'black' }} href={props.mlink}><FaMediumM /></a> */}
                 <p>{props.tech}</p>
             </div>
         </div>
@@ -19,3 +20,4 @@ const ProjectCard = (props) => {
 };
 
 export default ProjectCard;
+
