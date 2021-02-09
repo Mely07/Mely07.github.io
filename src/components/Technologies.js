@@ -4,7 +4,7 @@ class Technologies extends Component {
     render() {
         return (
 
-            <div className="text-center container rounded mt-5 p-md-5 mb-4 rounded bg-light">
+            <div className="text-center container rounded mt-5 p-md-5 mb-4">
                 <div className="row">
                     <div className="col">
                         DESIGN
