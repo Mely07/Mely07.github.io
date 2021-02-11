@@ -17,6 +17,11 @@ class About extends Component {
                                     <a aria-label="My LinkedIn" target="_blank" href="https://linkedin.com/in/damely-tineo/"><i class="fab fa-linkedin-in mr-3" aria-hidden="true" style={{ fontSize: "32px" }}></i></a>
                                     <a aria-label="My Github" target="_blank" href="https://github.com/Mely07"><i class="icon fab fa-github mr-3" aria-hidden="true" style={{ fontSize: "32px" }}></i></a>
                                     <a aria-label="My Medium" target="_blank" href="https://damely-tineo.medium.com/"><i class="icon fab fa-medium-m" aria-hidden="true" style={{ fontSize: "32px" }}></i></a>                                </div>
+                                <a href="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/view">Resume</a>
+
+                                {/* <i class="icon fab fa-linkedin-in fa-5x circle-icon" target="_blank" href="https://linkedin.com/in/damely-tineo/"/>
+                                <i class="icon fab fa-github fa-5x circle-icon" />
+                                <i class="icon fab fa-medium-m fa-5x circle-icon" /> */}
                                 <a href="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/view" class="btn btn-secondary mt-3">Resume</a>
                             </p>
                             <p class="lead text-muted">Hi there! My name is Damely Tineo. I am a recent bootcamp graduate looking to break into tech! I would love to work for an edtech company helping build the products/tools used to further educational opportunities for underrepresented populations.
