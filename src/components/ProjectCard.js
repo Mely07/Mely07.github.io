@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
 
     return (
         <div >
-            <Iframe className="responsive-iframe rounded" src={props.link} width="100%" height="258px" />
+            <Iframe className="responsive-iframe rounded" src={props.link} width="100%" height="258px" frameBorder="0"/>
             
             <div className="text-center">
                 <a style={{ fontSize: "2em" }} href={props.mlink}>
