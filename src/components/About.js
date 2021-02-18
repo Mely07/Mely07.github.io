@@ -7,11 +7,11 @@ class About extends Component {
     render() {
         return (
             <div>
-                <div className="container rounded text-center">
+                <div className="container rounded text-center" id="about">
                     <div class="row py-md-5">
                         <div class="col">
                             <h1 class="display-3">Damely Tineo</h1>
-                            <h1 class="display-6">Software Engineer</h1>
+                            <h2 class="display-6">Software Engineer</h2>
                             <p>
                                 <div>
                                     <a aria-label="My LinkedIn" target="_blank" href="https://linkedin.com/in/damely-tineo/"><i class="fab fa-linkedin-in mr-3" aria-hidden="true" style={{ fontSize: "32px", color: "pink" }}></i></a>
