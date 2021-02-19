@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Technologies extends Component {
     render() {
         return (
-            <div className="text-center container rounded mt-3 p-md-5 mb-4 border-top">
-                <div class="row">
+            <div className="text-center container rounded mt-5 p-md-5 mb-4 border-top" style={{paddingBottom: "100px"}}>
+                <div class="row mt-4">
                     <hr style={{ borderTop: "solid #black" }} />
                     <div class="col-md text-center" style={{ paddingLeft: "0", paddingRight: "0" }}>
                         <h2 style={{ marginBottom: "32px" }}>Design</h2>
