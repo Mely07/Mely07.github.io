@@ -1,38 +1,39 @@
 import React, { Component } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf'
 import Iframe from 'react-iframe';
+import portfolioImage from '../images/portfolio.jpg'
 
 class About extends Component {
 
     render() {
         return (
             <div>
-                <div className="container rounded text-center" id="about">
-                    <div class="row py-md-5">
+                <div className="text-center">
+                    <div class="row mt-5">
                         <div class="col">
-                            <h1 class="display-3">Damely Tineo</h1>
-                            <h2 class="display-6">Software Engineer</h2>
+                            <h1 class="display-2 cursive">Damely Tineo</h1>
+                            <img src={portfolioImage} class="my-3 rounded-circle" alt="..." style={{width: '15%'}}></img>
+                            <h2 class="display-6 text-muted">Software Engineer</h2>
                             <p>
-                                <div>
-                                    <a aria-label="My LinkedIn" target="_blank" href="https://linkedin.com/in/damely-tineo/"><i class="fab fa-linkedin-in mr-3" aria-hidden="true" style={{ fontSize: "32px", color: "pink" }}></i></a>
-                                    <a aria-label="My Github" target="_blank" href="https://github.com/Mely07"><i class="icon fab fa-github mr-3" aria-hidden="true" style={{ fontSize: "32px", color: "pink" }}></i></a>
-                                    <a aria-label="My Medium" target="_blank" href="https://damely-tineo.medium.com/"><i class="icon fab fa-medium-m" aria-hidden="true" style={{ fontSize: "32px", color: "pink" }}></i></a>                                </div>
-                                {/* <i class="icon fab fa-linkedin-in fa-5x circle-icon" target="_blank" href="https://linkedin.com/in/damely-tineo/"/>
-                                <i class="icon fab fa-github fa-5x circle-icon" />
-                                <i class="icon fab fa-medium-m fa-5x circle-icon" /> */}
+                                <div class="btn-group">
+                                    <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://github.com/Mely07" style={{ fontSize: "2em", color: "pink" }}><i className="fab fa-github-alt"></i></a>
+                                    <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://damely-tineo.medium.com/" style={{ fontSize: "2em", color: "pink" }}><i className="fab fa-medium-m"></i></a>
+                                    <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://linkedin.com/in/damely-tineo/" style={{ fontSize: "2em", color: "pink" }}><i className="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <br/>
                                 <a href="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/view" target="_blank" class="btn btn-secondary mt-3">Resume</a>
                             </p>
                             <br />
-                            <p class="lead text-muted">Hi there! My name is Damely Tineo. I am a recent bootcamp graduate looking to break into tech! I would love to work for an edtech company helping build the products/tools used to further educational opportunities for underrepresented populations.
-                            Hi there! My name is Damely Tineo. I am a recent bootcamp graduate looking to break into tech! I would love to work for an edtech company helping build the products/tools used to further educational opportunities for underrepresented populations.</p>
+                            <p class="lead text-muted">
+                                I am a business administrator with 7+ years of expereince in business administration seeking to utilize past experiences and newfound JavaScript and Ruby on Rails web development skills to make an exciting career change.
+                                I aspire to help build innovative, creative solutions to problems within a growth-minded organization. I also hope to help close the gender gap by encouraging more women to pursue careers in technology.
+                                In additon to continue to __ I serve as a volunteer for:
+                                To learn more about me you can email me at damely.tineo07@gmail.com </p>
                         </div>
                     </div>
                 </div>
 
-                {/* <a href="https://docs.google.com/document/d/1zbIQRbSCLLapoO1D801yR4fD0R_UOtWBgWm3ELbQmgI/export?format=pdf">RESUME</a>
-                <embed src="/Resume.pdf" width="800px" height="1100px" /> */}
 
-                {/* <Iframe className="responsive-iframe rounded text-center " src="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/preview" width="50%%" height="50%" /> */}
             </div>
 
         )
