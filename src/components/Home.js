@@ -2,30 +2,32 @@ import React, { Component } from 'react';
 import About from './About';
 import Projects from './Projects';
 import Technologies from './Technologies';
-import Footer from './Footer'
+import Footer from './Footer';
 
 class Home extends Component {
     render() {
         return (
             <div>
-                <div class="container-fluid text-fluid img-fluid" style={{ width: "100%", height: "100vh", background: `url("https://img.paperform.co/fetch/f_auto,w_1800/https://s3.amazonaws.com/paperform-blog/2019/05/usabilitytesting.jpeg") no-repeat center center fixed`, backgroundSize: 'cover'}}>
+                {/* <div class="container-fluid text-fluid img-fluid" style={{ width: "100%", height: "100vh", background: `url("https://img.paperform.co/fetch/f_auto,w_1800/https://s3.amazonaws.com/paperform-blog/2019/05/usabilitytesting.jpeg") no-repeat center center fixed`, backgroundSize: 'cover'}}> */}
+                {/* <div class="container-fluid text-fluid img-fluid" style={{ width: "100%", height: "100vh", background: `url("bG3.jpg") center center fixed`, backgroundSize: 'cover'}}> */}
+                {/* <div class="container-fluid text-fluid img-fluid" style={{ width: "100%", height: "100vh", background: `url("/background2.jpg") no-repeat center center fixed`, backgroundSize: 'cover'}}> */}
+                {/* <div class="container-fluid text-fluid img-fluid" style={{ width: "100%", height: "100vh", background: `url("/bg_warm.jpg") no-repeat center center fixed`, backgroundSize: 'cover'}}> */}
+                <div class="container-fluid text-fluid img-fluid" style={{ width: "50%", height: "100vh", background: `url("/x.jpg") no-repeat center center fixed`}}> 
+
                     <div className="container p-md-5" >
                         <header>
-                            <ul className="nav justify-content-center" style={{fontFamily: 'Satisfy, cursive', fontSize: "2em"}}>
+                            <ul className="nav justify-content-center" style={{fontSize: "1.2em" }}>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{color: 'teal'}} href="#about">About</a>
+                                    <a className="nav-link active" style={{ color: 'teal' }} href="#about">ABOUT</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{color: 'teal'}} href="#projects">Tech</a>
+                                    <a className="nav-link" style={{ color: 'teal' }} href="#projects">PROJECTS</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{color: 'teal'}} href="#projects">Projects</a>
+                                    <a className="nav-link" style={{ color: 'teal' }} target="_blank" href="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/view">RESUME</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{color: 'teal'}} href="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/view">Resume</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" style={{color: 'teal'}} href="#projects">Contact</a>
+                                    <a className="nav-link" style={{ color: 'teal' }} href="#projects">CONTACT</a>
                                 </li>
                             </ul>
                         </header>

@@ -11,8 +11,7 @@ class About extends Component {
                 <div className="text-center">
                     <div class="row mt-5">
                         <div class="col">
-                            <h1 class="display-2 cursive">Damely Tineo</h1>
-                            <img src={portfolioImage} class="my-3 rounded-circle" alt="..." style={{width: '15%'}}></img>
+                            <h1 class="display-2">Damely Tineo</h1>
                             <h2 class="display-6 text-muted">Software Engineer</h2>
                             <p>
                                 <div class="btn-group">
@@ -20,10 +19,10 @@ class About extends Component {
                                     <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://damely-tineo.medium.com/" style={{ fontSize: "2em", color: "pink" }}><i className="fab fa-medium-m"></i></a>
                                     <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://linkedin.com/in/damely-tineo/" style={{ fontSize: "2em", color: "pink" }}><i className="fab fa-linkedin-in"></i></a>
                                 </div>
-                                <br/>
-                                <a href="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/view" target="_blank" class="btn btn-secondary mt-3">Resume</a>
                             </p>
-                            <br />
+                            {/* <img src={portfolioImage} class="my-3 rounded-circle" alt="Portfolio Image" width="150px"></img> */}
+
+                            <p><a href="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/view" target="_blank" class="btn btn-secondary mt-3">Resume</a></p>
                             <p class="lead text-muted">
                                 I am a business administrator with 7+ years of expereince in business administration seeking to utilize past experiences and newfound JavaScript and Ruby on Rails web development skills to make an exciting career change.
                                 I aspire to help build innovative, creative solutions to problems within a growth-minded organization. I also hope to help close the gender gap by encouraging more women to pursue careers in technology.
