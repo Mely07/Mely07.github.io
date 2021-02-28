@@ -8,26 +8,28 @@ class About extends Component {
     render() {
         return (
             <div>
-                <div className="text-center">
+                <div className="">
                     <div class="row mt-5">
                         <div class="col">
-                            <h1 class="display-2">Damely Tineo</h1>
+                            <h1 class="display-3 cursive color-green">Damely Tineo</h1>
                             <h2 class="display-6 text-muted">Software Engineer</h2>
                             <p>
                                 <div class="btn-group">
-                                    <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://github.com/Mely07" style={{ fontSize: "2em", color: "pink" }}><i className="fab fa-github-alt"></i></a>
-                                    <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://damely-tineo.medium.com/" style={{ fontSize: "2em", color: "pink" }}><i className="fab fa-medium-m"></i></a>
-                                    <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://linkedin.com/in/damely-tineo/" style={{ fontSize: "2em", color: "pink" }}><i className="fab fa-linkedin-in"></i></a>
+                                    <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://github.com/Mely07" style={{ fontSize: "2em", color: "coral" }}><i className="fab fa-github-alt"></i></a>
+                                    <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://damely-tineo.medium.com/" style={{ fontSize: "2em", color: "coral" }}><i className="fab fa-medium-m"></i></a>
+                                    <a class="btn btn-outline-secondary mx-1 shadow-sm" href="https://linkedin.com/in/damely-tineo/" style={{ fontSize: "2em", color: "coral" }}><i className="fab fa-linkedin-in"></i></a>
                                 </div>
                             </p>
-                            {/* <img src={portfolioImage} class="my-3 rounded-circle" alt="Portfolio Image" width="150px"></img> */}
 
-                            <p><a href="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/view" target="_blank" class="btn btn-secondary mt-3">Resume</a></p>
                             <p class="lead text-muted">
-                                I am a business administrator with 7+ years of expereince in business administration seeking to utilize past experiences and newfound JavaScript and Ruby on Rails web development skills to make an exciting career change.
-                                I aspire to help build innovative, creative solutions to problems within a growth-minded organization. I also hope to help close the gender gap by encouraging more women to pursue careers in technology.
-                                In additon to continue to __ I serve as a volunteer for:
-                                To learn more about me you can email me at damely.tineo07@gmail.com </p>
+                                Problem Solver. Tech Enthusiast. Supporter of Mentorship and Diversity Programs.
+                                <br/>
+                                Business administrator turned JavaScript and Ruby on Rails Web Developer.
+                                <br/>
+                                To learn more about me you can email me at damely.tineo07@gmail.com
+                            </p>
+                            <p><a href="https://drive.google.com/file/d/18-nZDXpniIFWn6ITyHdictuTIpe5jOk4/view" target="_blank" class="btn btn-secondary mt-3">Resume</a></p>
+
                         </div>
                     </div>
                 </div>
