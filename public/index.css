@@ -1,0 +1,144 @@
+h1 {
+    /* font-family: 'La Belle Aurore', cursive; */
+    color: grey;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.cursive {
+    font-family: 'Satisfy', cursive;
+}
+
+.nav .nav-item .nav-link:hover {
+    color: pink !important;
+}
+
+.circle-icon {
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* border-color: black; */
+    border: 3px solid black;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+    font-weight: 900;
+}
+
+.arrows path {
+    stroke: orange;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow
+
+/*Safari and Chrome*/
+    {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+}
+
+.arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+}
+
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.to-top {
+    color: black;
+    padding-top: 1.8em;
+    display: inline-block;
+    /* or block */
+    position: relative;
+    border-color: white;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.to-top:before {
+    content: '▲';
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -.7em;
+    width: 1.4em;
+    height: 1.4em;
+    line-height: 1.3em;
+    transition: transform .5s ease-in;
+}
+
+.to-top:hover {
+    color: pink;
+    border-color: pink;
+}
+
+.to-top:hover:before {
+    transform: rotate(360deg);
+}
+
+.color-green {
+    /* color: rgb(15, 60, 66); */
+    color: rgb(19, 76, 83);
+}
+
+.color-green {
+    color: rgb(19, 76, 83);
+}
+
+.color-coral {
+    color: coral;
+}

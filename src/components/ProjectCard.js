@@ -14,8 +14,8 @@ const ProjectCard = (props) => {
                 <p class="card-text">{props.summary}</p>
             </div>
             <div class="card-body">
-            <a class="btn btn-outline-secondary mx-1" href={props.glink} style={{ fontSize: "2em", color: "coral" }}><i className="fab fa-github-alt"></i></a>
-                    <a class="btn btn-outline-secondary mx-1" href={props.mlink} style={{ fontSize: "2em", color: "coral" }}><i className="fab fa-medium-m"></i></a>
+            <a class="btn btn-outline-secondary mx-1" href={props.glink} style={{ fontSize: "1.5em", color: "coral" }}><i className="fab fa-github-alt"></i></a>
+                    <a class="btn btn-outline-secondary mx-1" href={props.mlink} style={{ fontSize: "1.5em", color: "coral" }}><i className="fab fa-medium-m"></i></a>
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ import NavBar from './Navbar';
 class Footer extends Component {
     render() {
         return (
-            <footer class="text-muted text-center">
+            <footer class="text-muted nav justify-content-center">
                 <NavBar />
     
                 <p class="float-right">
