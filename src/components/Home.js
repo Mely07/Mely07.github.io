@@ -22,11 +22,11 @@ class Home extends Component {
                     <div class="container-fluid" style={{ paddingLeft: '3%', paddingRight: '3%' }}>
                         <div class="row justify-content-center align-items-center">
                             <div class="col-md-1"></div>
-                            <div class="col-md-5 pr-0">
-                                <About />
-                            </div>
                             <div class="col-md-5 pl-0">
                                 <img class="img-fluid" src="/bg4.svg" alt="Portfolio Image" />
+                            </div>
+                            <div class="col-md-5 pr-0">
+                                <About />
                             </div>
                             <div class="col-md-1"></div>
                         </div>
@@ -52,7 +52,7 @@ class Home extends Component {
                     </div>
                 </div> */}
 
-                <div class="container mb-5" id="tech">
+                <div class="container mb-5 border-top" id="tech">
                     <Technologies />
                 </div>
                 <div class="container border-top pt-5 text-center" id="projects">

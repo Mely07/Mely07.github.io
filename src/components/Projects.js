@@ -11,7 +11,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <h1 class="display-6 mb-5 text-center cursive color-green" style={{ fontSize: "4em" }}>Projects</h1>
+                <h1 class="display-6 mb-5 text-center cursive" style={{ fontSize: "4em" }}>Projects</h1>
                 {/* <div className="row">
                     <div className="col-lg-4"><ProjectCard link="https://thestorytellerapplication.netlify.app/" glink="https://github.com/Mely07/Storyteller-React-Redux-Project" mlink="https://damely-tineo.medium.com/react-redux-and-store-state-7e4f4605ac8b" tech="RAILS - REACT - REDUX" title="Storyteller" summary="A single page story-building application built using CSS, Javascript, React, and Redux libraries on the frontend and a Ruby on Rails built API backend." image={storytellerImage} /></div>
                     <div className="col-lg-4"><ProjectCard link="https://www.youtube.com/embed/DQkHAqJT1f4" glink="https://github.com/Mely07/Book-It-JS-Rails-Project" mlink="https://damely-tineo.medium.com/object-oriented-classes-8e13ffdf7b1d" tech="RAILS - JAVASCRIPT" title="Book-It" summary="A single-page test-prep application, for students, grade 9 to 12, that provides a space to find and share honest reviews for books built using CSS and Javascript on the frontend and a Ruby on Rails built API backend." image={bookItImage} /></div>
