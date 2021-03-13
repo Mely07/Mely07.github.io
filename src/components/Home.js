@@ -22,7 +22,7 @@ class Home extends Component {
                     <div class="container-fluid" style={{ paddingLeft: '3%', paddingRight: '3%' }}>
                         <div class="row justify-content-center align-items-center">
                             <div class="col-md-1"></div>
-                            <div class="col-md-5 pl-0">
+                            <div class="col-md-5 pl-0" style={{paddingRight: "0px"}}>
                                 <img class="img-fluid" src="/bg4.svg" alt="Portfolio Image" />
                             </div>
                             <div class="col-md-5 pr-0">
