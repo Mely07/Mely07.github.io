@@ -16,9 +16,7 @@ class Home extends Component {
                     </div>
                     
                 </div>
-
-                {/* <div className="d-none d-lg-block"> */}
-                <div className="">
+                <div>
                     <div class="container-fluid" style={{ paddingLeft: '3%', paddingRight: '3%' }}>
                         <div class="row justify-content-center align-items-center">
                             <div class="col-md-1"></div>
@@ -31,26 +29,7 @@ class Home extends Component {
                             <div class="col-md-1"></div>
                         </div>
                     </div>
-                    {/* <a href="#tech">
-                        <svg class="arrows">
-                            <path class="a1" d="M0 0 L30 32 L60 0"></path>
-                            <path class="a2" d="M0 20 L30 52 L60 20"></path>
-                            <path class="a3" d="M0 40 L30 72 L60 40"></path>
-                        </svg>
-                    </a> */}
                 </div>
-                {/* <div className="d-lg-none">
-                    <div class="container-fluid" style={{ paddingLeft: '7%', paddingRight: '7%' }}>
-                        <div class="row justify-content-center align-items-center">
-                        <div class="col-lg-6">
-                                <About />
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid" src="/bg4.svg" alt="Portfolio Image" />
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
 
                 <div class="container mb-5 border-top" id="tech">
                     <Technologies />

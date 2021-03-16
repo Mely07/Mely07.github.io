@@ -6,7 +6,6 @@ class Footer extends Component {
         return (
             <footer class="text-muted nav justify-content-center">
                 <NavBar />
-    
                 <p class="float-right">
                 </p>
             </footer>

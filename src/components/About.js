@@ -8,24 +8,18 @@ class About extends Component {
     render() {
         return (
             <div>
-                <div className="">
-                    <div class="row">
-                        <div class="col" style={{ paddingLeft: "0px" }}>
-                            <h1 class="display-3 cursive mb-0">Damely Tineo</h1>
-                            <h2 class="display-6 color-green" style={{ fontWeight: "300" }}>Software Engineer</h2>
-                            <p class="lead text-muted">
-                                Problem Solver. Diversity, Equity, and Inclusion Advocate. Creator of things.
+                <div class="row">
+                    <div class="col" style={{ paddingLeft: "0px" }}>
+                        <h1 class="display-3 cursive mb-0">Damely Tineo</h1>
+                        <h2 class="display-6 color-green" style={{ fontWeight: "300", marginBottom: "12px" }}>Software Engineer</h2>
+                        <p class="lead text-muted">
+                            Problem Solver. Diversity, Equity, and Inclusion Advocate. Creator of things.
                                 <br />
-
-                                To learn more about me, you can email me at <a href="mailto:damely.tineo07@gmail.com?subject=Connecting via Portfolio" className="text-muted" style={{ textDecoration: 'underline' }}>damely.tineo07@gmail.com</a>
-                            </p>
-                        </div>
+                                To learn more about me, email me at <a href="mailto:damely.tineo07@gmail.com?subject=Connecting via Portfolio" className="text-muted" style={{ textDecoration: 'underline' }}>damely.tineo07@gmail.com</a>
+                        </p>
                     </div>
                 </div>
-
-
             </div>
-
         )
     }
 }
