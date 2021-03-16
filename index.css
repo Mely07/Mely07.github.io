@@ -1,0 +1,28 @@
+h1 {
+    color: grey;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.cursive {
+    font-family: 'Satisfy', cursive;
+}
+
+.nav .nav-item .nav-link:hover {
+    color: pink !important;
+}
+
+
+.color-green {
+    /* color: rgb(15, 60, 66); */
+    color: rgb(7, 179, 179);
+}
+
+
+.color-coral {
+    color: coral;
+}
+
+/* .tech-block {
+    text-align: center;
+    text-emphasis: muted;
+} */
